@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope";
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right,white, #8788f2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container h1{
+    font-size: 3rem;
+}
+
+button{
+    margin-top: 6rem;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 20rem;
+    background-color: #E90D0D;
+    cursor: pointer;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
